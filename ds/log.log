@@ -1,0 +1,301 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Building ds
+[INFO]    task-segment: [install]
+[INFO] ------------------------------------------------------------------------
+[INFO] [resources:resources {execution: default-resources}]
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\resources
+[INFO] [compiler:compile {execution: default-compile}]
+[INFO] Compiling 200 source files to c:\Users\abhishek.kumar2\JAVA_DS\ds\target\classes
+[INFO] ------------------------------------------------------------------------
+[ERROR] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Compilation failure
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Array\FindDiff.java:[36,13] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Hashtable<Integer, Integer> hash = new Hashtable<Integer, Integer>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode2\Anagrams.java:[17,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<String> anagrams(String[] strs) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode2\Anagrams.java:[31,20] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (String key : hash.keySet()) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\PermutationsII.java:[50,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> permuteUnique(int[] num) { // can solve Permutations.java, too
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\PermutationsII.java:[56,21] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (int element : num) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\ThreeSum.java:[21,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\GetPerm.java:[18,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<String> getPerms(String str) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\GetPerm.java:[31,21] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (String word : words) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Array\PrintSpiral.java:[17,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<Integer> printSpiral(int[][] matrix) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Array\PrintSpiral.java:[62,19] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (Integer i : list) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\GetSubsets.java:[18,11] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  ArrayList<ArrayList<Integer>> getSubsets(ArrayList<Integer> set, int index) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\GetSubsets.java:[27,37] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+      for (ArrayList<Integer> subset : allsubsets) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\GenerateParentheses.java:[20,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<String> generateParenthesis(int n) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\GreyCode.java:[27,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<Integer> grayCode(int n) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\SubsetsII.java:[33,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> subsetsWithDup(int[] S) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\FourSum.java:[18,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<ArrayList<Integer>> fourSum(int[] num, int target) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Array\FirstNonRepeated.java:[18,13] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Hashtable<Character, Object> charHash = new Hashtable<Character, Object>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\NQueens.java:[35,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<String[]> solveNQueens(int n) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Tree\LevelLinkedList.java:[18,57] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  private void createLevelLinkedList(Node node, ArrayList<LinkedList<Node>> lists, int level) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Tree\LevelLinkedList.java:[50,23] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+      for (Node parent : parents) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Tree\BST.java:[269,9] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Stack<Node> stack = new Stack<Node>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Array\FindSum.java:[33,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> twoSumS(int[] numbers, int target) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\LetterCombinationsPhoneNumber.java:[21,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<String> letterCombinations(String digits) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Queue\Animal.java:[52,12] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  LinkedList<Dog> dogs = new LinkedList<Dog>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Stack_Queue\StackWithQueue.java:[40,7] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  Queue<Integer> stack;
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\LinkedList\IsPalindrome.java:[60,9] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Stack<Object> stack = new Stack<Object>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode2\ThreeSum.java:[24,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> threeSum(int[] num) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Queue\MyQueue.java:[15,20] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+public class MyQueue<T> {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Tree\BST.java:[114,9] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Stack<Node> stack = new Stack<Node>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\LongestValidParentheses.java:[24,9] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Stack<Integer> stack = new Stack<Integer>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Array\IsPermutation.java:[37,16] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (char c : s_array) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\String\Compress.java:[82,16] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (char x : cnt) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\MergeIntervals.java:[23,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<Interval> merge(ArrayList<Interval> intervals) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\MergeIntervals.java:[57,20] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (Interval i : test) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\MergeIntervals.java:[69,3] annotations are not supported in -source 1.3
+(use -source 5 or higher to enable annotations)
+  @Override
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Stack\StackWithMin.java:[14,39] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+public class StackWithMin extends Stack<NodeWithMin> {//each node record what the minimum beneath itself is.
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\Combination.java:[28,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<ArrayList<Integer>> combine(int n, int k) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Stack_Queue\QueueWith2Stacks.java:[20,7] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  Stack<Integer> content;
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\RecoverBinarySearchTree.java:[25,13] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    ArrayList<TreeNode> result = new ArrayList<TreeNode>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\Permutations.java:[21,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> permute(int[] num) { // recursion version
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\Subsets.java:[35,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> subsets(int[] S) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\SpriralMatrix.java:[27,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<Integer> spiralOrder(int[][] matrix) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\GetPath.java:[23,48] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public boolean getPath(int x, int y, ArrayList<Point> path) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Yelp\MinStack.java:[16,14] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public Stack<Integer> stack;
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LinkedLists\IsPalindrome.java:[61,9] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Stack<Object> stack = new Stack<Object>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\CombinationSumII.java:[19,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<ArrayList<Integer>> combinationSum2(
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Pocket\Stack_Queue\Tower.java:[16,15] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  private Stack<Integer> disks;
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\LargestRectangleHistogram.java:[48,9] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Stack<Integer> stack = new Stack<Integer>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode2\FourSum.java:[25,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<ArrayList<Integer>> fourSum(int[] num, int target) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\Anagrams.java:[31,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<String> anagrams(String[] strs) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\Anagrams.java:[34,18] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (String s : strs) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\MergeKSortedLists.java:[19,39] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ListNode mergeKLists(ArrayList<ListNode> lists) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\MergeKSortedLists.java:[80,3] annotations are not supported in -source 1.3
+(use -source 5 or higher to enable annotations)
+  @Override
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[16,12] ';' expected
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,4] not a statement
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,9] ';' expected
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,11] not a statement
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,16] ';' expected
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,18] not a statement
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,21] ';' expected
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,23] not a statement
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,29] ';' expected
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,31] not a statement
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\PaintFill.java:[17,36] ';' expected
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\CombinationSum.java:[30,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<ArrayList<Integer>> combinationSum(int[] candidates, int target) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Recursion\GenerateParentheses.java:[17,32] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public void addParen(ArrayList<String> list, int leftRem, int rightRem, char[] str, int count) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Stack\Tower.java:[17,15] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  private Stack<Integer> disks;
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\InsertInterval.java:[28,18] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public ArrayList<Interval> insert(ArrayList<Interval> intervals, Interval newInterval) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Sort\SortAnagrams.java:[19,13] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    Hashtable<String, LinkedList<String>> hash = new Hashtable<String, LinkedList<String>>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Sort\SortAnagrams.java:[20,18] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+    for (String s : array) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Stack\Sort.java:[17,21] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static Stack<Integer> sort(Stack<Integer> s1) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Yelp\InorderPreorderToBST.java:[16,31] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public Node constructBST(List<Integer> preorder, List<Integer> inorder, int preIndex, int inIndex, int length) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Yelp\TopChatter.java:[24,11] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+    HashMap<String, Integer> map = new HashMap<String, Integer>();
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\Yelp\TopChatter.java:[36,20] for-each loops are not supported in -source 1.3
+(use -source 5 or higher to enable for-each loops)
+      for (Entry en : map.entrySet()) {
+
+c:\Users\abhishek.kumar2\JAVA_DS\ds\src\main\java\com\ds\LeetCode\BinaryTreeInorderTraversal.java:[18,25] generics are not supported in -source 1.3
+(use -source 5 or higher to enable generics)
+  public static ArrayList<Integer> inorderTraversal(TreeNode root) {
+
+
+[INFO] ------------------------------------------------------------------------
+[INFO] For more information, run Maven with the -e switch
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1 second
+[INFO] Finished at: Tue Jul 16 16:30:36 IST 2013
+[INFO] Final Memory: 10M/109M
+[INFO] ------------------------------------------------------------------------
